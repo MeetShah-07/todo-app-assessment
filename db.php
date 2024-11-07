@@ -1,9 +1,9 @@
 <?php
-// db.php
+
 $host = 'sql12.freesqldatabase.com';
 $dbname = 'sql12743168';
 $username = 'sql12743168';
-$password = 'TnRn5yDYvX'; // Enter your MySQL password here
+$password = 'TnRn5yDYvX'; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
