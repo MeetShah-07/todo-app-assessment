@@ -1,0 +1,155 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: 	#d8031c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00008B;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-list li:last-child {
+    border-bottom: none;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.edit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.edit-btn:hover {
+    background-color: #0069d9;
+}
+
+.cancel-btn {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.cancel-btn:hover {
+    background-color: #5a6268;
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ .filters a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #007bff;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+ 
+ .filters a.active {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+} 
+
+.task-list li.pending {
+    color: #333;
+}
+
+.task-list li.completed {
+    color: #6c757d;
+    text-decoration: line-through;
+}
+
+.toggle-status-btn {
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #17a2b8;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.toggle-status-btn:hover {
+    background-color: #138496;
+}
+.task-text.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.status-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
